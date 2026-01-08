@@ -3,26 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet"href="style.css">
+    <title>Mon Portfolio - Étudiant e-business</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <h1>Découvrez la section e-business</h1>
-        <p>Le web au service du commerce, par la HEPH-Condorcet</p>
-        <a href="#" class="btn"> Découvrez la section</a>
-        <a href="#" class="btn">Rejoignez-nous !</a>
 
+    <header>
+        <div class="logo">Mon<strong>Portfolio</strong></div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Bonjour, je suis Broidioi Manoah</h1>
+            <p>Étudiant en e-business passionné par le développement web et la gestion de données.</p>
+            <a href="#contact" class="btn">Me contacter</a>
         </div>
+    </section>
 
-    <div>
-        <p>
-            Plonge dans l'univers de l'e-business à la Haute Ecole Condorcet : ici,
-             tu combines stratégie digitale, marketing et tech pour créer des projets 
-             qui cartonnent. Apprends à réussir dans le monde numérique.
-             Une formation pratique, innovante et prête pour l'avenir.
-            
-        </p>
-    </div>
+    <section id="competences" class="container">
+        <h2>Mes Compétences</h2>
+        <div class="cards-wrapper">
+            <div class="card">
+                <h3>HTML & CSS</h3>
+                <p>Création de sites vitrines, mise en page Flexbox, Responsive Design.</p>
+            </div>
+            <div class="card">
+                <h3>Base de Données</h3>
+                <p>Microsoft Access, SQL, Modélisation relationnelle (Merise).</p>
+            </div>
+            <div class="card">
+                <h3>Passion</h3>
+                <p>Passionné de basket,de cinéma et de littérature.Je passe mon temps libre a sculpter mon corps et mon esprit.</p>
+        </div>
+    </section>
+
+    <section id="projets" class="bg-light">
+        <div class="container">
+            <h2>Mes Réalisations</h2>
+            <div class="project-item">
+                <div class="project-text">
+                    <h3>Gestion de Tournoi de Basket (Access)</h3>
+                    <p>Développement d'une application complète pour gérer un championnat :</p>
+                    <ul>
+                        <li>Structure relationnelle complexe (Équipes, Joueurs, Matchs).</li>
+                        <li>Interface utilisateur ergonomique avec formulaire de navigation.</li>
+                        <li>Automatisation des calendriers et impression des listes de joueurs (États).</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Broidioi Manoah. Créé avec HTML & CSS.</p>
+    </footer>
+
 </body>
 </html>
